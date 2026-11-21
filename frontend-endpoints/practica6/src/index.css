@@ -1,0 +1,49 @@
+:root {
+  font-family: system-ui;
+  color: #193a3b;
+  background: #eff4f2;
+}
+body {
+  margin: 0;
+}
+main {
+  max-width: 52rem;
+  margin: auto;
+  padding: 2rem 1rem;
+}
+section,
+article,
+form {
+  padding: 1rem;
+  margin: 1rem 0;
+  background: white;
+  border-radius: 0.6rem;
+}
+button,
+input,
+select {
+  font: inherit;
+  margin: 0.25rem;
+  padding: 0.45rem 0.65rem;
+  border: 1px solid #718982;
+  border-radius: 0.35rem;
+}
+button {
+  background: #205550;
+  color: white;
+  cursor: pointer;
+}
+button:disabled {
+  opacity: 0.5;
+}
+label {
+  display: block;
+}
+.productos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+[role="alert"] {
+  color: #982222;
+}
